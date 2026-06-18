@@ -1,1 +1,32 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WAITLIST</title>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#000000">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="WAITLIST">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="page-shell">
+  <section class="hero-card">
+    <div class="brand"><span class="brand__word">Solvaro</span><span class="brand__mark">®</span></div>
+    <div class="intro">
+      <p class="eyebrow">Artist intake waitlist</p>
+      <h1>Join the Solvaro roster waitlist</h1>
+    </div>
+    <!-- ضع النموذج الحالي هنا أو استخدم ملف index الموجود لديك -->
+  </section>
+</main>
+<script>
+if('serviceWorker' in navigator){
+window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js'));
+}
+</script>
+</body>
+</html>
